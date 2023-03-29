@@ -58,4 +58,5 @@ return result;
 };
 
 
+// ----------------- Start the Database
 initdb();
