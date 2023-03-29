@@ -26,28 +26,13 @@ const tx = jateDb.transaction('jate', 'readwrite');
 const store = tx.objectStore('jate');
 
 
-
-
-
-
-
-
-
 // ----------------- Use the .add() method on the store and pass in the content.
-const request = store.put ({ }); //--------------------------------------------------------------------- UPDATE THIS 
-
-
-
-
-
-
-
+const request = store.put ({content}); 
 
 // ----------------- Get confirmation of the request.
 const result = await request;
 console.log('data saved to the database', result);
 };
-
 
 
 // TODO: Add logic for a method that gets all the content from the database
