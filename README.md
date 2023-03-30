@@ -2,12 +2,11 @@
 Your task is to build a text editor that runs in the browser. The app will be a single-page application that meets the PWA criteria. Additionally, it will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+The PWA text editor is essentially a notepad that can store data in the local browser - when you leave the page and come back the data persists and repopulates
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+The notepad can be downloaded and the data will persist online as well as offline.
+
+The project was relatively straightforward, there were a couple sticking points but overall very helpful and a good time to work through.
 
 ## Table of Contents (Optional)
 
@@ -18,19 +17,27 @@ Provide a short description explaining the what, why, and how of your project. U
 
 ## Installation
 
+There is no installation necessary to launch the app - you can access the app at https://calm-sands-43698.herokuapp.com/
 
+If you open the script you will have to run an npm i to get the correct packages.
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+Login to the site https://calm-sands-43698.herokuapp.com/ and begin writing your notes.  If you have anything you need to remember, write it down and when you return to the site the data will return.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
+Feel free to checkout the links: <br>
+GitHub Profile: https://github.com/swmcguire<br>
+GitHub Code:  https://github.com/swmcguire/PWA-TextEditor <br>
+Heroku Live: https://calm-sands-43698.herokuapp.com/<br>
 
-![alt text](assets/images/screenshot.png)
+
+
+![Screenshot of the JATE APP](./Assets/JATE-App.png)
 
 ## Credits
 
-Module 19 Class Work - Specifically the mini project
+Module 19 Class Work - Specifically the mini project <br>
+TA - Emma Olson - helped with the launch and console.logs
 
 ## License
 
